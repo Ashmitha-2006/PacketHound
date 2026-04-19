@@ -11,9 +11,7 @@
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-🐾 PacketHound
-PacketHound is a full-stack network security tool designed to simulate real-world SOC (Security Operations Center) monitoring.It captures live network traffic, analyzes it using custom intrusion detection rules, and generates real-time alerts through a web dashboard and email notifications.This project demonstrates how security analysts detect attacks such as port scans, SYN floods, and ICMP floods using automated detection pipelines.
-
+PacketHound is a real-time network intrusion detection system that captures live traffic, analyzes it using custom detection rules, and generates alerts through a web dashboard and email notifications.It simulates real-world SOC monitoring by identifying attacks such as port scans, SYN floods, and ICMP floods using automated detection pipelines.
 
 ![Dashboard](dashboard2.png)
 
