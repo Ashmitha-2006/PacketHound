@@ -3,14 +3,6 @@
 # 🐾 PacketHound
 
 ### Real-Time Network Intrusion Detection System
-🐾 PacketHound
-**Real-Time Network Intrusion Detection & Monitoring System**
-
-PacketHound is a full-stack network security tool designed to simulate real-world SOC (Security Operations Center) monitoring.
-
-It captures live network traffic, analyzes it using custom intrusion detection rules, and generates real-time alerts through a web dashboard and email notifications.
-
-This project demonstrates how security analysts detect attacks such as port scans, SYN floods, and ICMP floods using automated detection pipelines.
 
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -19,12 +11,37 @@ This project demonstrates how security analysts detect attacks such as port scan
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+🐾 PacketHound
+PacketHound is a full-stack network security tool designed to simulate real-world SOC (Security Operations Center) monitoring.It captures live network traffic, analyzes it using custom intrusion detection rules, and generates real-time alerts through a web dashboard and email notifications.This project demonstrates how security analysts detect attacks such as port scans, SYN floods, and ICMP floods using automated detection pipelines.
+
 
 ![Dashboard](dashboard2.png)
 
 </div>
 
 ---
+## 🌍 Why This Matters
+
+PacketHound reflects real-world network monitoring workflows used in SOC environments:
+
+* Detecting reconnaissance activity (port scanning)
+* Identifying denial-of-service attacks (SYN/ICMP floods)
+* Monitoring suspicious traffic patterns in real time
+* Generating alerts for rapid incident response
+
+This project demonstrates practical skills in intrusion detection, traffic analysis, and security monitoring.
+
+
+## 🛠️ Skills Demonstrated
+
+* Network Traffic Analysis (TCP/IP, packet inspection)
+* Intrusion Detection System (IDS) design
+* Real-time data processing and alerting
+* Backend development (FastAPI)
+* Frontend dashboard (React)
+* WebSocket-based real-time communication
+* Database integration (SQLite, SQLAlchemy)
+
 
 ## ✨ Features
 
@@ -289,13 +306,7 @@ thread = threading.Thread(
 
 ---
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -m "feat: add your feature"`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Open a Pull Request
 
 ---
 
