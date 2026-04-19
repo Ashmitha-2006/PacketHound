@@ -12,7 +12,7 @@
 
 **PacketHound** sniffs your network in real time, detects intrusion patterns with custom rules, and fires email alerts — all from a slick dark-mode dashboard.
 
-![Dashboard](dashboard.png)
+![Dashboard](dashboard2.png)
 
 </div>
 
