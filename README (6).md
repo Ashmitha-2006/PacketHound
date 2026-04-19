@@ -12,7 +12,7 @@
 
 **PacketHound** sniffs your network in real time, detects intrusion patterns with custom rules, and fires email alerts — all from a slick dark-mode dashboard.
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 </div>
 
@@ -40,7 +40,7 @@
 
 Severity-coded alerts stream in real time — CRITICAL SYN floods, HIGH port scans, and MEDIUM ICMP floods, all with source IP and full descriptions.
 
-![Alerts Table](screenshots/alerts.png)
+![Alerts Table](alerts.png)
 
 ---
 
@@ -48,7 +48,7 @@ Severity-coded alerts stream in real time — CRITICAL SYN floods, HIGH port sca
 
 A live rolling line chart tracks packet volume every 5 seconds. Traffic spikes are immediately visible when an attack begins.
 
-![Traffic Chart](screenshots/dashboard.png)
+![Traffic Chart](dashboard.png)
 
 ---
 
@@ -56,7 +56,7 @@ A live rolling line chart tracks packet volume every 5 seconds. Traffic spikes a
 
 Every attacker IP is automatically resolved to city, country, and ISP using the ip-api.com API.
 
-![Geolocation Table](screenshots/geolocation.png)
+![Geolocation Table](geolocation.png)
 
 ---
 
@@ -64,7 +64,7 @@ Every attacker IP is automatically resolved to city, country, and ISP using the 
 
 PacketHound fires a styled HTML email the moment a `CRITICAL` or `HIGH` alert is detected — no dashboard required.
 
-![Email Alert](screenshots/email-alert.png)
+![Email Alert](email-alert.png)
 
 ---
 
