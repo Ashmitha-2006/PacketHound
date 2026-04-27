@@ -171,12 +171,7 @@ cp .env.example .env
 
 **`.env` reference:**
 
-```env
-DATABASE_URL=sqlite:///./packethound.db
-EMAIL_SENDER=your-email@gmail.com
-EMAIL_PASSWORD=your-gmail-app-password
-EMAIL_RECEIVER=alerts@yourdomain.com
-```
+└── .env.example    # DATABASE_URL, EMAIL_SENDER/PASSWORD/RECEIVER
 
 > **Gmail App Password:** Go to [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords) and generate a 16-character app password. Do not use your regular Gmail password.
 
@@ -327,7 +322,11 @@ thread = threading.Thread(
 
 This project is intended for **educational and authorized network monitoring use only**. Raw packet capture requires elevated privileges. Always ensure you have explicit permission to monitor any network you run PacketHound on. Do not commit your `.env` file or expose your Gmail app password publicly.
 
----
+## 👩‍💻 Author
+
+**Ashmitha** — Cybersecurity Student & Security Tool Developer
+
+[![GitHub](https://img.shields.io/badge/GitHub-Ashmitha--2006-black?style=flat&logo=github)](https://github.com/Ashmitha-2006)
 
 
 ---
