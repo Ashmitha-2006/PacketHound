@@ -149,7 +149,7 @@ Network Interface
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/PacketHound.git
+git clone https://github.com/Ashmitha-2006/PacketHound.git
 cd PacketHound
 ```
 
