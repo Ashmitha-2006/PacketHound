@@ -27,7 +27,7 @@ PacketHound reflects real-world network monitoring workflows used in SOC environ
 * Monitoring suspicious traffic patterns in real time
 * Generating alerts for rapid incident response
 
-This project demonstrates practical skills in intrusion detection, traffic analysis, and security monitoring.
+This project demonstrates practical skills in intrusion detection, traffic analysis, and security monitoring. 
 
 
 ## 🛠️ Skills Demonstrated
@@ -55,7 +55,6 @@ This project demonstrates practical skills in intrusion detection, traffic analy
 - **🗄️ Persistent Storage** — SQLite database (swappable via `DATABASE_URL` env var) stores every captured packet and generated alert.
 - **🔒 Auth-Gated UI** — Simple credential-based login with `localStorage` session persistence.
 
----
 
 ## 📸 Screenshots
 
@@ -227,6 +226,17 @@ Password: packethound123
 
 ### Adding a custom rule
 
+
+## 🧠 Detection Capabilities
+
+PacketHound identifies potentially suspicious behavior such as:
+
+- High-volume traffic from a single host  
+- Communication with multiple external IP addresses  
+- Abnormal traffic patterns (basic anomaly detection)  
+- Indicators of compromise (IOC-like activity)
+  
+
 Open `backend/detection/rules.py` and follow the same pattern, then register it in `run_all_rules`:
 
 ```python
@@ -303,7 +313,12 @@ thread = threading.Thread(
 - [ ] Dark/light theme toggle
 
 ---
+## 🚀 Future Improvements
 
+- Advanced anomaly detection techniques  
+- Machine learning-based threat classification  
+- Enhanced dashboard visualization  
+- Integration with SIEM platforms 
 
 
 ---
@@ -314,9 +329,6 @@ This project is intended for **educational and authorized network monitoring use
 
 ---
 
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for details.
 
 ---
 
